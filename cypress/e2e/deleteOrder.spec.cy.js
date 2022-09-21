@@ -19,47 +19,7 @@ describe('order Product', () => {
         
     })
 
-    it('Add to cart', () => {
-        const order= new CartPage();
-        cy.wait(2040);
-        order.navigate();
-cy.wait(2040);
-        order.addToCart();
-        order.continueShop();
-        order.btnAdd();
-        cy.log("Add to cart success")
-
-        // Arrange
-        
-    
-        // Act
-    
-        // Assert
-    
-    
-})
-
-it('Edit cart', () => {
-    const order= new CartPage();
-    cy.wait(2040);
-    order.navigate();
-cy.wait(2040);
-    order.addToCart();
-    order.continueShop();
-    order.btnAdd();
-    order.editQuantity();
-
-    cy.log("Edit cart success")
-
-    // Arrange
-    
-
-    // Act
-
-    // Assert
-
-
-})
+   
 it('Delete from cart', () => {
     const order= new CartPage();
     cy.wait(2040);
