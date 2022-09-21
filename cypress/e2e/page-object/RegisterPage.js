@@ -1,46 +1,46 @@
 class RegisterPage{
     emailCreate(email){
-        cy.get('#email_create').type(email)
+        return cy.get('#email_create').type(email)
     }
     submitCreate(){
         cy.get('#SubmitCreate').click()
     }
     selectGender(id_gender){
-        cy.get(id_gender).click()
+        return  cy.get(id_gender).click()
     }
     enterFirstName(){
-        cy.get('#customer_firstname').type('Automation')
+        return  cy.get('#customer_firstname').type('Automation')
 
     }
     enterLastName(){
-        cy.get('#customer_lastname').type('Tester')
+        return  cy.get('#customer_lastname').type('Tester')
 
         
     }
     enterPassword(){
-        cy.get('passwd').type('1234567890',{sensitive:true})
+        return  cy.get('passwd').type('1234567890',{sensitive:true})
     }
    enterAddressFirstname(){
-    cy.get('#firstname').type('Automation')
+    return  cy.get('#firstname').type('Automation')
    }
    enterAddressLastname(){
-    cy.get('#lastname').type('Tester')
+    return  cy.get('#lastname').type('Tester')
    }
     enterAddress(address){
-        cy.get('#address1').type(address)
+        return   cy.get('#address1').type(address)
     }
    enterCity(){
-    cy.get('#city').type()
+    return  cy.get('#city').type()
    }
     
     selectState(state){
-        cy.get('#id_state').select(state)
+        return    cy.get('#id_state').select(state)
     }
     selectCountry(country){
-        cy.get('#id_country').select(country)
+        return   cy.get('#id_country').select(country)
     }
     enterMobile(phone_mobile){
-        cy.get('#phone_mobile').type(phone_mobile)
+        return    cy.get('#phone_mobile').type(phone_mobile)
     }
     submitAccount(){
     cy.get('#submitAccount').click();

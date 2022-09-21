@@ -18,9 +18,9 @@ describe('empty spec', () => {
     // user=this.testdata;
     email=this.testdata.email
     cy.wait(2040)
-    loginPage.typeEmail('abc@gmail.com');
+    loginPage.typeEmail(this.testdata.email);
     cy.wait(2040)
-    loginPage.getPassword(email);
+    loginPage.getPassword(this);
     cy.wait(2040)
     loginPage.PressButton();
     cy.wait(2040)
