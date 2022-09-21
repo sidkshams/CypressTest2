@@ -1,0 +1,11 @@
+{
+    "name": "Using fixtures to represent data",
+    "email": "abc@gmail.com",
+    "$pass": "123456",
+    "emailGet":"#email",
+    "passwordGet":"#passwd",
+    "EmailGet":"#join_neu_email_field",
+    "PasswordGet":"#join_neu_password_field",
+    "body": "Fixtures are a great way to mock data for responses to routes"
+    
+  }

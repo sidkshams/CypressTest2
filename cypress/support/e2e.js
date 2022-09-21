@@ -15,6 +15,8 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands'
+import './Account/AccountCommands'
+import '../e2e/utils/login.js'
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
