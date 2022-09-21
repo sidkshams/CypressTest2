@@ -1,5 +1,7 @@
 {
   "devDependencies": {
-    "cypress": "^10.8.0"
+    "cypress": "^10.8.0",
+    "faker": "^6.6.6",
+    "xpath": "^0.0.32"
   }
 }

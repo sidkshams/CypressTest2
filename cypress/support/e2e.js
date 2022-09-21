@@ -15,6 +15,9 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands'
-
+import './Account/AccountCommands'
+import '../e2e/utils/login.js'
+// require('cypress-xpath')
+// require('faker')
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
